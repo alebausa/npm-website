@@ -1,0 +1,242 @@
+/********** REUSABLE STYLES *********/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+button {
+    padding: 7px 15px;
+    border-radius: 15px;
+    color: white;
+    border: 0px;
+}
+
+.red {
+    background-color: rgb(203,56,55);
+}
+
+.darkblue {
+    background-color: rgb(49, 68, 88);
+}
+
+.orange {
+    background-color: rgb(240, 146, 51);
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cont-padding {
+    padding: 75px 10px;
+}
+
+.cont-header {
+    padding: 5px 10px 75px 10px;
+}
+
+.col {
+    float: left;
+}
+
+.col-3 {
+    width: 33%;
+}
+
+.img-center{
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/**************************text**/
+
+.centered {
+    text-align: center;
+}
+
+/***************NAV BAR*************/
+
+nav {
+    background-color: #c12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 40px;
+    width: 1220px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 5px 8px;
+    vertical-align: middle;
+}
+
+.top-left {
+    float: left;
+    padding-left: 10px;
+}
+
+/***************HEADER**************/
+
+.header {
+    background-color: rgb(32, 101, 136);
+    color: white;
+    background-image: url('images/city-scape.svg');
+}
+
+.build {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 8%;
+    text-align: left;
+    color: white;
+    margin-bottom: 10%;
+}
+
+.build p {
+    text-align: left;
+    color: white;
+}
+
+input.form[name="search"]{
+    display: inline-block;
+    width: 895px;
+    height: 30px;
+    vertical-align: middle;
+    background-color: rgb(32, 82, 111);
+}
+
+.logo {
+    width: 10%;
+    height: 30px;
+    float: left;
+}
+
+.search {
+    width: 60%;
+}
+
+.bear {
+    height: 30px;
+    float: right;
+}
+
+.bear a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*************ORGS******************/
+
+.orgs {
+    background: rgb(39, 53, 71);
+    color: white;
+    height: 300px;
+}
+
+.img-left {
+    margin-left: 20%;
+    float: left;
+}
+
+.col-2 {
+    float: right;
+    width: 38%;
+}
+
+.orgs h2 {
+    color: white;
+    font-size: 1.7em;
+}
+
+.orgs p, li {
+    color: white;
+    font-size: 0.8em; 
+    text-align: left;
+}
+
+.orgs a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/************WHAT IS NPM ***********/
+
+.relative {
+    position: relative;
+    background-image: url('images/forklift.svg');
+    background-size: cover;
+    height: 300px;
+    text-align: left;
+    color: white;
+}
+
+.absolute {
+    position: absolute;
+    text-align: left;
+    padding-left: 50px;
+    width: 30%;
+}
+
+.p-left {
+    color: white;
+    text-align: left;
+}
+
+/********** BUILDING BLOCKS ********/
+.blocks {
+    color: rgb(135,145,156);
+}
+
+.blocks a {
+    color: rgb(208,74,73);
+    text-decoration: none;
+}
+
+.blocks-title h3, p {
+    text-align: center;
+    vertical-align: center;
+    color: rgb(83,88,98);
+}
+
+.blocks-title .col {
+    padding-right: 10px;
+}
